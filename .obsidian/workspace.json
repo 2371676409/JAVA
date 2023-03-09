@@ -1,0 +1,196 @@
+{
+  "main": {
+    "id": "857c92c656659686",
+    "type": "split",
+    "children": [
+      {
+        "id": "7a270fa6db1eb519",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "44cd3bf09411bb51",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/Javase/Day01.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "group": "7b87801fabde84fe"
+          }
+        ]
+      },
+      {
+        "id": "80bb364a8cfb72a8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c9d75502cc322f28",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Java/Javase/Day01.md"
+              }
+            },
+            "group": "7b87801fabde84fe"
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "544d3deabcce6c80",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa926e205003b38b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "74b85728c3cc7095",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f04a1d2df94b8e15",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d44f0297ccd1bede",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8fcd0c952d69ec47",
+    "type": "split",
+    "children": [
+      {
+        "id": "7d59551f6c34432c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "138816e7c650eb14",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Java/Javase/Day01.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "caa37ecc87851fc3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Java/Javase/Day01.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a7478e54a1c08266",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f0ca4a1f8e32d323",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Java/Javase/Day01.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false
+    }
+  },
+  "active": "c9d75502cc322f28",
+  "lastOpenFiles": [
+    "Java",
+    "Java/Javase/assets/Day01/image-20230309230448906.png",
+    "Java/Javase/assets/Day01/image-20230309230334863.png",
+    "Java/Javase/assets/Day01/image-20230309230259282.png",
+    "Java/Javase/assets/Day01/image-20230309230208341.png",
+    "Java/Javase/assets/Day01/image-20230309230142247.png",
+    "Java/Javase/assets",
+    "assets/Day01/image-20230309225958023.png",
+    "Java/Javase/Day01.md",
+    "Java/Javase/assets/Day01",
+    "assets",
+    "Java/Javase",
+    "图片/Pasted image 20230309224701.png",
+    "Java/JavaSe/Day01.md",
+    "临时笔记/未命名.md",
+    "临时笔记/assets/未命名/image-20230309225155768.png",
+    "临时笔记/assets/未命名",
+    "临时笔记/assets",
+    "Pasted image 20230309224627.png",
+    "临时笔记/Pasted image 20230309224516 1.png",
+    "图片",
+    "Java/JavaSe",
+    "临时笔记",
+    "Java"
+  ]
+}
