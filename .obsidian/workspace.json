@@ -6,7 +6,6 @@
       {
         "id": "b671d313ef0fc3dc",
         "type": "tabs",
-        "dimension": 80.6949806949807,
         "children": [
           {
             "id": "673f366a00f4eb91",
@@ -18,26 +17,7 @@
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "7488d3e1f6012e0f"
-          }
-        ]
-      },
-      {
-        "id": "c3d2b7cf858bf175",
-        "type": "tabs",
-        "dimension": 19.305019305019304,
-        "children": [
-          {
-            "id": "5684a1c44e47134b",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Java/Javase/笔记文件/Day02.md"
-              }
-            },
-            "group": "7488d3e1f6012e0f"
+            }
           }
         ]
       }
@@ -155,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,6 +150,7 @@
   },
   "active": "673f366a00f4eb91",
   "lastOpenFiles": [
+    "Java/Javase/笔记文件/assets/Day02/image-20230310210731770.png",
     "Java/Javase/笔记文件/Day02.md",
     "Java/Javase/笔记文件/Day01.md",
     "Java/Javase/笔记文件/assets/Day02/image-20230310192001214.png",

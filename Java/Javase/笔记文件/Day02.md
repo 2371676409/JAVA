@@ -229,13 +229,13 @@ public class ConstantDemo{
 
 ## 5.变量
 
-**定义格式**
+### 定义格式
 ```java
 数据类型 变量名  赋值符号  数值
   int      i       =        10;
 ```
 
-**代码演示**
+### 代码演示
 ```java
 public class VatiableDemo{
 	public static void main(String[] args){
@@ -246,6 +246,64 @@ public class VatiableDemo{
 		String str = "上云";
 		str = "上云17";
 		System.out.println(str);
+	}
+}
+```
+
+**如果给 final 修饰的变量赋值，就会报错，已经变成了常量了**
+![](assets/Day02/image-20230310210731770.png)
+
+```java
+		final int i = 10;
+		i = 20;
+		Syste.out.println(i);
+```
+
+## 6.运算符
+
+### 1.算术运算符
+```java
+ +  -  *  /  %  ++  --
+```
+
+**演示操作运算符**
+```java
+public class OperatorDemo{
+	// 演示 +  -  *  /  %  
+	public static void main(Stringp[] args){
+		int a = 10;
+		int b = 20;
+		System.out.println(a + b); //30
+		System.out.println(a - b); //-10
+		System.out.println(a * b); //200
+		System.out.println(a / b); //0
+
+        a = 3;
+		System.out.println(a % b);//2
+
+        System.out.println("-----------分割线演示后置 ++ ------------");   
+    // 演示++  --   
+	    int c = 5;
+	    c++;
+	    System.out.println(c); //5
+
+		c--;
+		System.out.println(c); //6
+		System.out.println("-----------分割线演示前置 ++ ------------");
+
+	    int d = 5;
+	    ++d;
+		--d;
+		System.out.println(c); //5
+		
+		System.out.println("-----------分割线演示前置 ++ 与后置 ++ ------------");
+
+        int f = 10;
+        int e = 2
+	    System.out.println(f + e); //13
+
+		int g = e++ + f;
+		System.out.println(g); //12
 	}
 }
 ```
