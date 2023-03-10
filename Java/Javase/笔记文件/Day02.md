@@ -25,10 +25,13 @@
 
 ## 1. 基本数据类型
 
-**演示基本类型的Demo**
-### 1.byte
+### 1.整形
+
+**演示整形的Demo**
+
+#### 1.byte
 存储范围 =  [ -128 - 127 ]
-存储字节 = 1字节  =  8位
+存储字节 = 1 字节  =  8 位
 ```java
 public class ByteDemo{
 	public static void main(String[] args){
@@ -40,9 +43,9 @@ public class ByteDemo{
 //如果我们 存200
 ```
 
-### 2.Short
+#### 2.Short
 存储范围 =  [ -32768 - 32767 ]
-存储字节 = 2字节  =  16位
+存储字节 = 2 字节  =  16 位
 ```java
 public class ShortDemo{
 	public static void main(String[] args){
@@ -52,9 +55,9 @@ public class ShortDemo{
 }
 ```
 
-### 3.Int
+#### 3.Int
 存储范围 =  [ -2147483648 - 2147483648 ]
-存储字节 = 4字节  =  32位
+存储字节 = 4 字节  =  32 位
 ```java
 public class IntDemo{
 	public static void main(String[] args){
@@ -64,9 +67,9 @@ public class IntDemo{
 }
 ```
 
-### 3.Long
+#### 3.Long
 存储范围 =  [ -2^63 - 2^63-1 ]
-存储字节 = 8字节  =  64位
+存储字节 = 8 字节  =  64 位
 ```java
 public class LongDemo{
 	public static void main(String[] args){
@@ -74,4 +77,60 @@ public class LongDemo{
 		System.out.println(lo);
 	}
 }
+```
 
+
+### 2.浮点型
+
+**演示浮点型的Demo**
+#### 1.DouBle
+存储字节 = 8 字节  
+```java
+public class DouBleDemo{
+	public static void main(String[] args){
+	Double dou = 12.5D;
+		System.out.println(dou);
+	}
+}
+```
+
+#### 2.Float
+存储字节 = 4 字节  
+```java
+public class FloatDemo{
+	public static void main(String[] args){
+	Float floa = 12.6F;
+		System.out.println(floa);
+	}
+}
+```
+
+
+### 3.字符型
+
+**演示字符型的Demo**
+#### 1.Char
+存储字节 = 2 字节  
+```java
+public class CharDemo{
+	public static void main(String[] args){
+	Char char = '男';
+		System.out.println(char);
+	}
+}
+```
+
+### 4.布尔型
+
+**演示布尔的Demo**
+#### 1.Boolean
+存储字节 = 1 字节
+True/False
+```java
+public class BooleanDemo{
+	public static void main(String[] args){
+	Boolean b = ture;
+		System.out.println(b);
+	}
+}
+```
