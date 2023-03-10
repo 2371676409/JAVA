@@ -459,3 +459,14 @@ public class AssignmentDemo{
 ```
 
 
+### 7.奇数偶数判断
+
+```java
+public class OperatorDemo2{
+	public static void main(String[] args){
+		int a = 12;
+		//三元运算符
+		System.out.println(a%2 == 0 ？"这是一个偶数":"这是一个奇数");
+	}
+}
+```

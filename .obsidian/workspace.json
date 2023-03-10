@@ -6,6 +6,7 @@
       {
         "id": "12d08b08967cf244",
         "type": "tabs",
+        "dimension": 80.6949806949807,
         "children": [
           {
             "id": "ff336a9d83a3a508",
@@ -17,7 +18,26 @@
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "f97fab635e586dfe"
+          }
+        ]
+      },
+      {
+        "id": "22ca4b64819b7706",
+        "type": "tabs",
+        "dimension": 19.305019305019304,
+        "children": [
+          {
+            "id": "3c0ee64434fef996",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Java/Javase/笔记文件/Day02.md"
+              }
+            },
+            "group": "f97fab635e586dfe"
           }
         ]
       }
