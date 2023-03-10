@@ -358,7 +358,68 @@ public class LogicallDemo{
 
 ### 4.三目运算符
 
-**==前面为true 取值1 否则取值2==**
+**boolean?值1:值2；** **==前面为true 取值1 否则取值2==**
 ```java
-boolean?值1:值2；
+int i3 = 10;
+int i4 = 20;
+int i5 = i3>i4?5:6;
+System.out.println( i5 ); //6
+```
+
+### 5.赋值运算符
+```java
+基本赋值运算符: =
+扩展赋值运算符: +=  -=  *=  /=  %=
+对于扩展的赋值运算符，即使数据超出范围，最终也不会改变运算的结果类型
+```
+
+**演示赋值运算符**
+```java
+public class AssignmentDemo{
+	public static void main(String[] args){
+		//基本赋值运算符: =
+		int a = 10;
+		int b = a + 20;
+		System.out,println(b); //30
+
+		//扩展赋值运算符: +=  -=  *=  /=  %=
+		a += a;
+		System.out,println(a);//20
+        int c = 20;
+        System.out,ptintln(c -= 30); //-10
+	}
+}
+```
+
+**举例演示**
+
+虽然说是by与by1是Byte数据类型的数据，但是byte by2 = by + by1; 使用运算符 **==+==** 的时候，会默认  **==by + by1==**  的数据类型变成 **==Int 类型==**
+
+**==Int类型的数据能给 Byte嘛？？！！==**
+
+```java
+public class AssignmentDemo{
+	public static void main(String[] args){
+		//byte short
+		byte by = 10;
+		byte by1 = 20;
+		//默认的整型是 Int
+		byte by2 = by + by1;
+		System.out.println(by2);
+	}
+}
+```
+
+解决方案： 大范围到小范围（强制数据类型转换） (byte)(by + by1)
+```java
+public class AssignmentDemo{
+	public static void main(String[] args){
+		//byte short****
+		byte by = 10;
+		byte by1 = 20;
+		//默认的整型是 Int
+		byte by2 = (byte)(by + by1);
+		System.out.println(by2);
+	}
+}
 ```
