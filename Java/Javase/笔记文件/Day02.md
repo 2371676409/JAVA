@@ -268,7 +268,7 @@ public class VatiableDemo{
  +  -  *  /  %  ++  --
 ```
 
-![|1125](assets/Day02/image-20230310233734667.png)
+![|725](assets/Day02/image-20230310233734667.png)
 
 
 
@@ -320,7 +320,7 @@ public class OperatorDemo{
 ```java
 > >= == != < <=
 ```
-![|1250](assets/Day02/image-20230310233750048.png)
+![|700](assets/Day02/image-20230310233750048.png)
 
 
 
