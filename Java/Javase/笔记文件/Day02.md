@@ -331,21 +331,34 @@ public class RelationalDemo{
 ```
 
 ### 3.逻辑运算符
+
 ```java
-& | !
+& | ! ^ && ||
 ```
 
+![](assets/Day02/image-20230310222910864.png)
 
 **演示逻辑运算符**
 ```java
 public class LogicallDemo{
-	// 演示 & | !
+	// 演示 & | ! ^ && ||
 	public static void main(String[] args){
-		boolean bo = true;
-		boolean b1 = false;
+		boolean bo = false;
+		boolean b1 = true;
 		System.out.println( b0 & b1); //false
 		System.out.println( b0 | b1); //true
-		
-	}
+		System.out.println( !b0);     //true
+
+		System.out.println( b0 ^ b1);   //true
+		System.out.println( b0 && b1);  //false
+		System.out.println( b0 || b1);  //true
+	}  
 }
+```
+
+### 4.三目运算符
+
+**==前面为true 取值1 否则取值2==**
+```java
+boolean?值1:值2；
 ```
