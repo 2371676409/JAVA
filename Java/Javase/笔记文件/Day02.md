@@ -250,7 +250,7 @@ public class VatiableDemo{
 }
 ```
 
-**如果给 final 修饰的变量赋值，就会报错，已经变成了常量了**
+**==如果给 final 修饰的变量赋值，就会报错，已经变成了常量了==**
 ![](assets/Day02/image-20230310210731770.png)
 
 ```java
@@ -267,6 +267,7 @@ public class VatiableDemo{
 ```
 
 **演示操作运算符**
+**==注意：前置 ++ 和后置 ++ 的区别，前置 ++ 先+1在运算，后置 ++先运算再+1==**
 ```java
 public class OperatorDemo{
 	// 演示 +  -  *  /  %  
@@ -300,10 +301,51 @@ public class OperatorDemo{
 
         int f = 10;
         int e = 2
-	    System.out.println(f + e); //13
+        
+        int g = e++ + f;
+	    //System.out.println(f + e); //13
+		System.out.println(g); //13
+		System.out.println(e); //3
+	}
+}
+```
 
-		int g = e++ + f;
-		System.out.println(g); //12
+### 2.关系运算符
+```java
+> >= == != < <=
+```
+
+**演示关系运算符**
+```java
+public class RelationalDemo{
+	// 演示 > >= == != < <=
+	public static void main(String[] args){
+		System.out.println(10 > 20);  //ture
+		System.out.println(10 >= 20); //false
+		System.out.println(10 == 20); //false
+		System.out.println(10 != 20); //true
+		System.out.println(10 < 20);  //true
+		System.out.println(10 <= 20); //false
+	}
+}
+```
+
+### 3.逻辑运算符
+```java
+& | !
+```
+
+
+**演示逻辑运算符**
+```java
+public class LogicallDemo{
+	// 演示 & | !
+	public static void main(String[] args){
+		boolean bo = true;
+		boolean b1 = false;
+		System.out.println( b0 & b1); //false
+		System.out.println( b0 | b1); //true
+		
 	}
 }
 ```
