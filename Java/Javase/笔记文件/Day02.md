@@ -268,6 +268,10 @@ public class VatiableDemo{
  +  -  *  /  %  ++  --
 ```
 
+![](assets/Day02/image-20230310233734667.png)
+
+
+
 **演示操作运算符**
 **==注意：前置 ++ 和后置 ++ 的区别，前置 ++ 先+1在运算，后置 ++先运算再+1==**
 ```java
@@ -316,6 +320,9 @@ public class OperatorDemo{
 ```java
 > >= == != < <=
 ```
+![](assets/Day02/image-20230310233750048.png)
+
+
 
 **演示关系运算符**
 ```java
@@ -338,7 +345,9 @@ public class RelationalDemo{
 & | ! ^ && ||
 ```
 
-![](assets/Day02/image-20230310222910864.png)
+![](assets/Day02/image-20230310233809969.png)
+
+
 
 **演示逻辑运算符**
 ```java
@@ -374,6 +383,10 @@ System.out.println( i5 ); //6
 扩展赋值运算符: +=  -=  *=  /=  %=
 对于扩展的赋值运算符，即使数据超出范围，最终也不会改变运算的结果类型
 ```
+
+![](assets/Day02/image-20230310233828659.png)
+
+
 
 **演示赋值运算符**
 ```java
