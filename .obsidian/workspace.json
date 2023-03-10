@@ -13,29 +13,11 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Javase/Day01.md",
+                "file": "Java/Javase/笔记文件/Day01.md",
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "7b87801fabde84fe"
-          }
-        ]
-      },
-      {
-        "id": "80bb364a8cfb72a8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c9d75502cc322f28",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Java/Javase/Day01.md"
-              }
-            },
-            "group": "7b87801fabde84fe"
+            }
           }
         ]
       }
@@ -103,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Javase/Day01.md",
+                "file": "Java/Javase/笔记文件/Day01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/Javase/Day01.md",
+                "file": "Java/Javase/笔记文件/Day01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Javase/Day01.md"
+                "file": "Java/Javase/笔记文件/Day01.md"
               }
             }
           }
@@ -166,18 +148,20 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "c9d75502cc322f28",
+  "active": "74b85728c3cc7095",
   "lastOpenFiles": [
+    "Java/Javase/笔记文件/assets",
+    "Java/Javase/笔记文件",
     "Java",
-    "Java/Javase/assets/Day01/image-20230309230448906.png",
-    "Java/Javase/assets/Day01/image-20230309230334863.png",
-    "Java/Javase/assets/Day01/image-20230309230259282.png",
-    "Java/Javase/assets/Day01/image-20230309230208341.png",
-    "Java/Javase/assets/Day01/image-20230309230142247.png",
+    "Java/Javase/笔记文件/assets/Day01/image-20230309230448906.png",
+    "Java/Javase/笔记文件/assets/Day01/image-20230309230334863.png",
+    "Java/Javase/笔记文件/assets/Day01/image-20230309230259282.png",
+    "Java/Javase/笔记文件/assets/Day01/image-20230309230208341.png",
+    "Java/Javase/笔记文件/assets/Day01/image-20230309230142247.png",
     "Java/Javase/assets",
     "assets/Day01/image-20230309225958023.png",
-    "Java/Javase/Day01.md",
-    "Java/Javase/assets/Day01",
+    "Java/Javase/笔记文件/Day01.md",
+    "Java/Javase/笔记文件/assets/Day01",
     "assets",
     "Java/Javase",
     "图片/Pasted image 20230309224701.png",
@@ -189,8 +173,6 @@
     "Pasted image 20230309224627.png",
     "临时笔记/Pasted image 20230309224516 1.png",
     "图片",
-    "Java/JavaSe",
-    "临时笔记",
-    "Java"
+    "Java/JavaSe"
   ]
 }
