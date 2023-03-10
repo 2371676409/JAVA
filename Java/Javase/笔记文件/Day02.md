@@ -497,3 +497,68 @@ public class OperatorDemo2{
 	}
 }
 ```
+
+
+# 6.Day02作业
+
+## 任务1
+
+**编写一个java程序，定义一个包含main方法的java类，在main方法中使用合适的数据类型定义如下变量，标识符要严格遵守java规范**
+
+* 学生姓名，学习年龄，学生身高，学生性别，家庭住址，体重
+* 使用Syste,.out.println()方法将这些变量数据输出到控制台
+
+```java
+public class Student{
+	public static void main(String[] args)
+		//学生姓名
+		String stuname = "兔子";
+		//学生年龄
+		double stuage = 20.5;
+		//学生身高
+		double stuHeight = 180;
+		//学生性别
+		char sex = '男';
+		//家庭住址
+		String address = "杭州";
+		//体重
+		double weight = 70;
+		
+		System.out.println("名字是:" + stuname);
+		System.out.println("年龄是:" + stuage);
+		System.out.println("身高是:" + stuHeight);
+		System.out.println("性别是:" + sex);
+		System.out.println("家庭住址是:" + address);
+		System.out.println("体重是:" + weight);
+	}
+}
+```
+
+## 任务2
+
+**编写一个java控制台使用正确方式定义变量或常量存储以下描述的数据（自己赋值）并在控制台界面打印这些数据，及写上相关注释**
+
+* 一年之中季节有几个
+* 一个星期有几天
+* 支付宝余额
+* 交通信号灯数量
+
+```java
+public class Test{
+	public static void main(String[] args)
+		//【季节 星期】 用final修饰
+		final int season = 4;
+		final int weelDay = 7;
+		//支付宝余额
+		double alipayBalance = 1000;
+		//交通信号灯数量
+		int trafficLights = 10000
+		
+		System.out.println("一年之中季节有:" + season);
+		System.out.println("一个星期是:" + weelDay);
+		System.out.println("支付宝余额是:" + alipayBalance);
+		System.out.println("交通信号灯数量是:" + trafficLights);
+	}
+}
+
+```
