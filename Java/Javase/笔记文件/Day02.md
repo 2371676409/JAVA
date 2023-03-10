@@ -165,7 +165,7 @@ public class intTestF{
 }
 ```
 
-### 2.(Int)Float
+### 2.(Int)Double
 
 **演示浮点型（Double）强制转换整型（Int）**
 ```java
