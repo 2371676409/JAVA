@@ -391,13 +391,13 @@ public class AssignmentDemo{
 }
 ```
 
-**举例演示**
+**举例1**
 
 虽然说是by与by1是Byte数据类型的数据，但是byte by2 = by + by1; 使用运算符 **==+==** 的时候，会默认  **==by + by1==**  的数据类型变成 **==Int 类型==**
 
 **==Int类型的数据能给 Byte嘛？？！！==**
-
 ```java
+//举例代码
 public class AssignmentDemo{
 	public static void main(String[] args){
 		//byte short
@@ -412,6 +412,7 @@ public class AssignmentDemo{
 
 解决方案： 大范围到小范围（强制数据类型转换） (byte)(by + by1)
 ```java
+//解决方案代码
 public class AssignmentDemo{
 	public static void main(String[] args){
 		//byte short****
@@ -423,3 +424,23 @@ public class AssignmentDemo{
 	}
 }
 ```
+
+
+### 6.字符串连接运算符
+```java
+public class AssignmentDemo{
+	public static void main(String[] args){
+	    //字符串的连接
+		String str1 = "我爱";
+		String str2 = "兔子";
+		System.out.println(str1 + str2); //我爱兔子
+ 
+		//char码表对应 ASCII码
+		char ch1 = 'a';
+		char ch2 = 'b';
+		System.out.println(ch1 + ch2); //192
+	}
+}
+```
+
+
