@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b671d313ef0fc3dc",
+        "id": "12d08b08967cf244",
         "type": "tabs",
         "children": [
           {
-            "id": "673f366a00f4eb91",
+            "id": "ff336a9d83a3a508",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -135,7 +135,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,17 +149,17 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "673f366a00f4eb91",
+  "active": "ff336a9d83a3a508",
   "lastOpenFiles": [
+    "Java/Javase/笔记文件/assets/Day02/image-20230310233734667.png",
+    "Java/Javase/笔记文件/Day02.md",
     "Java/Javase/笔记文件/assets/Day02/image-20230310233828659.png",
     "Java/Javase/笔记文件/assets/Day02/image-20230310233809969.png",
     "Java/Javase/笔记文件/assets/Day02/image-20230310233750048.png",
-    "Java/Javase/笔记文件/assets/Day02/image-20230310233734667.png",
     "Java/Javase/笔记文件/assets/Day02/image-20230310231714320.png",
     "Java/Javase/笔记文件/assets/Day02/image-20230310222925908.png",
     "Java/Javase/笔记文件/assets/Day02/image-20230310222910864.png",
     "Java/Javase/笔记文件/assets/Day02/image-20230310210731770.png",
-    "Java/Javase/笔记文件/Day02.md",
     "Java/Javase/笔记文件/Day01.md",
     "Java/Javase/笔记文件/assets/Day02/image-20230310192001214.png",
     "Java/Javase/笔记文件/assets/Day02",
@@ -169,7 +170,6 @@
     "Java/Javase/笔记文件",
     "Java",
     "Java/Javase/笔记文件/assets/Day01/image-20230309230448906.png",
-    "Java/Javase/笔记文件/assets/Day01/image-20230309230334863.png",
     "Java/Javase/assets",
     "Java/Javase/笔记文件/assets/Day01",
     "assets",
