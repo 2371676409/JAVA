@@ -4,53 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "7a270fa6db1eb519",
+        "id": "b671d313ef0fc3dc",
         "type": "tabs",
-        "dimension": 72.82608695652173,
+        "dimension": 80.6949806949807,
         "children": [
           {
-            "id": "44cd3bf09411bb51",
+            "id": "673f366a00f4eb91",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Javase/笔记文件/Day01.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a972a850b8239735",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "临时笔记/Day02.md",
+                "file": "Java/Javase/笔记文件/Day02.md",
                 "mode": "source",
                 "source": false
               }
             },
-            "group": "08844590c722503a"
+            "group": "7488d3e1f6012e0f"
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "bcd0995c1c7ba642",
+        "id": "c3d2b7cf858bf175",
         "type": "tabs",
-        "dimension": 27.173913043478258,
+        "dimension": 19.305019305019304,
         "children": [
           {
-            "id": "7ee50e3c8e2d5254",
+            "id": "5684a1c44e47134b",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/Day02.md"
+                "file": "Java/Javase/笔记文件/Day02.md"
               }
             },
-            "group": "08844590c722503a"
+            "group": "7488d3e1f6012e0f"
           }
         ]
       }
@@ -119,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "临时笔记/Day02.md",
+                "file": "Java/Javase/笔记文件/Day02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "临时笔记/Day02.md",
+                "file": "Java/Javase/笔记文件/Day02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/Day02.md"
+                "file": "Java/Javase/笔记文件/Day02.md"
               }
             }
           }
@@ -182,15 +169,15 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "a972a850b8239735",
+  "active": "5684a1c44e47134b",
   "lastOpenFiles": [
-    "临时笔记/assets/Day02/image-20230310192001214.png",
-    "临时笔记/assets/Day02",
+    "Java/Javase/笔记文件/Day02.md",
+    "Java/Javase/笔记文件/Day01.md",
+    "Java/Javase/笔记文件/assets/Day02/image-20230310192001214.png",
+    "Java/Javase/笔记文件/assets/Day02",
     "临时笔记/assets",
     "未命名.md",
-    "临时笔记/Day02.md",
     "临时笔记",
-    "Java/Javase/笔记文件/Day01.md",
     "Java/Javase/笔记文件/assets",
     "Java/Javase/笔记文件",
     "Java",
@@ -207,7 +194,6 @@
     "图片/Pasted image 20230309224701.png",
     "Java/JavaSe/Day01.md",
     "临时笔记/assets/未命名/image-20230309225155768.png",
-    "Pasted image 20230309224627.png",
-    "临时笔记/Pasted image 20230309224516 1.png"
+    "Pasted image 20230309224627.png"
   ]
 }

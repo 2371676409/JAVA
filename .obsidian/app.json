@@ -4,5 +4,6 @@
   "newFileFolderPath": "临时笔记",
   "useMarkdownLinks": true,
   "promptDelete": false,
-  "newLinkFormat": "relative"
+  "newLinkFormat": "relative",
+  "alwaysUpdateLinks": true
 }
