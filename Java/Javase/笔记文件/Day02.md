@@ -215,7 +215,7 @@ Byte，Short，Char混合运算时，各自先转换成 Int 类型在做运算
 
 ## 4.常量
 
-**定义：永远不会变的量（默认是 Int 类型）**
+**概念：永远不会变的量（默认是 Int 类型）**
 
 **相关关键词：Final**
 ```java
@@ -229,12 +229,23 @@ public class ConstantDemo{
 
 ## 5.变量
 
-定义格式：
+**定义格式**
 ```java
 数据类型 变量名  赋值符号  数值
   int      i       =        10;
+```
 
-double d = 3.5;
-d = 3.6;
-System.out.println(d);
+**代码演示**
+```java
+public class VatiableDemo{
+	public static void main(String[] args){
+		double d = 3.5;
+		d = 3.6;
+		System.out.println(d);
+
+		String str = "上云";
+		str = "上云17";
+		System.out.println(str);
+	}
+}
 ```
