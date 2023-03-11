@@ -5,5 +5,6 @@
   "useMarkdownLinks": true,
   "promptDelete": false,
   "newLinkFormat": "relative",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "autoConvertHtml": false
 }
