@@ -1,3 +1,4 @@
+
 # 1. 基础语法
 
 ## 1. 计算机存储单元
@@ -6,10 +7,10 @@
 
 * 2.其他的存储单位：
 ```java
-   1B（字节）= 8 bit
-   1KB       = 1024（B）
-   1MB       = 1024KB
-   1GB       =  1024MB
+1B（字节）= 8 bit
+1KB       = 1024（B）
+1MB       = 1024KB
+1GB       =  1024MB
 ```
 
 ## 2. 进制
@@ -20,7 +21,7 @@
 
 * 3.需求 ： 10转换成二进制
 
-  ![](assets/Day02/image-20230310192001214.png)
+![](assets/Day02/image-20230310192001214.png)
 # 2. 数据类型 🚩
 
 ## 1. 基本数据类型
@@ -35,8 +36,8 @@
 ```java
 public class ByteDemo{
 	public static void main(String[] args){
-		byte b = 12;
-		System.out.println(b);
+	byte b = 12;
+	System.out.println(b);
 	}
 }
 
@@ -49,7 +50,7 @@ public class ByteDemo{
 ```java
 public class ShortDemo{
 	public static void main(String[] args){
-	Short sh = 12;
+		Short sh = 12;
 		System.out.println(sh);
 	}
 }
@@ -61,7 +62,7 @@ public class ShortDemo{
 ```java
 public class IntDemo{
 	public static void main(String[] args){
-	Int in = 12;
+		Int in = 12;
 		System.out.println(in);
 	}
 }
@@ -73,7 +74,7 @@ public class IntDemo{
 ```java
 public class LongDemo{
 	public static void main(String[] args){
-	Long lo = 12;
+		Long lo = 12;
 		System.out.println(lo);
 	}
 }
@@ -88,7 +89,7 @@ public class LongDemo{
 ```java
 public class DouBleDemo{
 	public static void main(String[] args){
-	Double dou = 12.5D;
+		Double dou = 12.5D;
 		System.out.println(dou);
 	}
 }
@@ -99,7 +100,7 @@ public class DouBleDemo{
 ```java
 public class FloatDemo{
 	public static void main(String[] args){
-	Float floa = 12.6F;
+		Float floa = 12.6F;
 		System.out.println(floa);
 	}
 }
@@ -114,7 +115,7 @@ public class FloatDemo{
 ```java
 public class CharDemo{
 	public static void main(String[] args){
-	Char char = '男';
+		Char char = '男';
 		System.out.println(char);
 	}
 }
@@ -129,7 +130,7 @@ True/False
 ```java
 public class BooleanDemo{
 	public static void main(String[] args){
-	Boolean b = ture;
+		Boolean b = ture;
 		System.out.println(b);
 	}
 }
@@ -181,33 +182,33 @@ public class Test{
 
 ### 3.注意事项
 
- 1.相互转换
+1.相互转换
 ```java
 8种类型中除了布尔类型之外，剩下的7种类型之间都可以相互转换
 ```
 
- 2.容量从小到大
-  ```java
-  小容量转换成大容量成为自动类型转换，容量从小到大的排序
-  byte < short(char) < int < long < float < double  
+2.容量从小到大
+```java
+小容量转换成大容量成为自动类型转换，容量从小到大的排序
+byte < short(char) < int < long < float < double  
 ```
 
- 3.容量从大到小
+3.容量从大到小
 ```java
 大容量转换成小容量成为强制类型转换，需要加强制类型转换符，编译通过。执行过程中可能会损失精度，谨慎使用
 ```
 
- 4.取值范围
+4.取值范围
 ```java
 整数型字面量（取值范围）没有超出Byte，Short，Char的取值范围，可以直接赋值
 ```
 
- 5.混合运算
+5.混合运算
 ```java
 Byte，Short，Char混合运算时，各自先转换成 Int 类型在做运算
 ```
 
- 6.多种数据类型混合运算
+6.多种数据类型混合运算
 ```java
 多种数据类型混合运算时，各自先转换成容量最大的在做运算
 ```
@@ -223,7 +224,7 @@ public class ConstantDemo{
 	public void main(String[] args){
 		//常量
 		final int i = 10;
-		}
+	}
 }
 ```
 
@@ -232,7 +233,7 @@ public class ConstantDemo{
 ### 定义格式
 ```java
 数据类型 变量名  赋值符号  数值
-  int      i       =        10;
+int      i       =        10;
 ```
 
 ### 代码演示
@@ -242,7 +243,7 @@ public class VatiableDemo{
 		double d = 3.5;
 		d = 3.6;
 		System.out.println(d);
-
+		 
 		String str = "上云";
 		str = "上云17";
 		System.out.println(str);
@@ -254,9 +255,9 @@ public class VatiableDemo{
 ![](assets/Day02/image-20230310210731770.png)
 
 ```java
-		final int i = 10;
-		i = 20;
-		Syste.out.println(i);
+	final int i = 10;
+	i = 20;
+	Syste.out.println(i);
 ```
 
 
@@ -265,27 +266,27 @@ public class VatiableDemo{
 
 ### 1.算术运算符
 ```java
- +  -  *  /  %  ++  --
++  -  *  /  %  ++  --
 ```
 
-   | 运算符 | 运算规则 |        例子        |   结果   |
-   | :----: | :------: | :----------------: | :------: |
-   |   +    |   正号   |         +3         |    3     |
-   |   +    |  连接符  |   “我爱”+“上云”    | 我爱上云 |
-   |   +    |   加号   |        1+3         |    4     |
-   |   -    |   负号   |         -3         |    3     |
-   |   -    |   减号   |        4-1         |    3     |
-   |   *    |   乘号   |        3 * 3        |   9     |
-   |   /    |    除    |        3/3         |    1     |
-   |   %    |   取模   |        10%3        |    1     |
-   |   ++   |   自增   | int i = 1;++i/i++; |    2     |
-   |   --   |   自减   | int i = 1;--i/i--; |    0     |
+| 运算符 | 运算规则 |        例子        |   结果   |
+| :----: | :------: | :----------------: | :------: |
+|   +    |   正号   |         +3         |    3     |
+|   +    |  连接符  |   “我爱”+“上云”    | 我爱上云 |
+|   +    |   加号   |        1+3         |    4     |
+|   -    |   负号   |         -3         |    3     |
+|   -    |   减号   |        4-1         |    3     |
+|   *    |   乘号   |        3 * 3        |   9     |
+|   /    |    除    |        3/3         |    1     |
+|   %    |   取模   |        10%3        |    1     |
+|   ++   |   自增   | int i = 1;++i/i++; |    2     |
+|   --   |   自减   | int i = 1;--i/i--; |    0     |
 
 **演示操作运算符**
 **==注意：前置 ++ 和后置 ++ 的区别，前置 ++ 先+1在运算，后置 ++先运算再+1==**
 ```java
 public class OperatorDemo{
-	// 演示 +  -  *  /  %  
+// 演示 +  -  *  /  %  
 	public static void main(Stringp[] args){
 		int a = 10;
 		int b = 20;
@@ -293,35 +294,35 @@ public class OperatorDemo{
 		System.out.println(a - b); //-10
 		System.out.println(a * b); //200
 		System.out.println(a / b); //0
-
-        a = 3;
+		
+		a = 3;
 		System.out.println(a % b);//2
-
-        System.out.println("-----------分割线演示后置 ++ ------------");   
-    // 演示++  --   
-	    int c = 5;
-	    c++;
-	    System.out.println(c); //5
-
+		
+		System.out.println("-----------分割线演示后置 ++ ------------");   
+		// 演示++  --   
+		int c = 5;
+		c++;
+		System.out.println(c); //5
+		
 		c--;
 		System.out.println(c); //6
 		System.out.println("-----------分割线演示前置 ++ ------------");
-
-	    int d = 5;
-	    ++d;
+		
+		int d = 5;
+		++d;
 		--d;
 		System.out.println(c); //5
 		
-		System.out.println("-----------分割线演示前置 ++ 与后置 ++ ------------");
-
-        int f = 10;
-        int e = 2
-        
-        int g = e++ + f;
-	    //System.out.println(f + e); //13
+		System.out.println("-----------分割线演示前置 ++ 与后置 ++ --------				----");
+		
+		int f = 10;
+		int e = 2
+		
+		int g = e++ + f;
+		//System.out.println(f + e); //13
 		System.out.println(g); //13
 		System.out.println(e); //3
-	}
+		}
 }
 ```
 
@@ -329,19 +330,19 @@ public class OperatorDemo{
 ```java
 > >= == != < <=
 ```
-   | 运算符 | 运算规则 | 例子 | 结果  |
-   | :----: | :------: | :--: | :---: |
-   |   >    |   大于   | 3>2  | true  |
-   |   >=   | 大于等于 | 2>=2 | true  |
-   |   ==   | 等于等于 | 2 == 2 | true  |
-   |   <    |   小于   | 3<2  | false |
-   |   <=   | 小于等于 | 3<=2 | false |
-   |   !=   |  不等于  | 3!=2 | true  |
+| 运算符 | 运算规则 | 例子 | 结果  |
+| :----: | :------: | :--: | :---: |
+|   >    |   大于   | 3>2  | true  |
+|   >=   | 大于等于 | 2>=2 | true  |
+|   ==   | 等于等于 | 2 == 2 | true  |
+|   <    |   小于   | 3<2  | false |
+|   <=   | 小于等于 | 3<=2 | false |
+|   !=   |  不等于  | 3!=2 | true  |
 
 **演示关系运算符**
 ```java
 public class RelationalDemo{
-	// 演示 > >= == != < <=
+// 演示 > >= == != < <=
 	public static void main(String[] args){
 		System.out.println(10 > 20);  //ture
 		System.out.println(10 >= 20); //false
@@ -349,7 +350,7 @@ public class RelationalDemo{
 		System.out.println(10 != 20); //true
 		System.out.println(10 < 20);  //true
 		System.out.println(10 <= 20); //false
-	}
+		}
 }
 ```
 
@@ -360,26 +361,26 @@ public class RelationalDemo{
 ```
 
 
-   | 运算符 | 运算规则 |     例子      | 结果  |
-   | :----: | :------: | :-----------: | :---: |
-   |   &    |  逻辑与  | true & false  | false |
-   |   \|   |  逻辑或  | true \| false | true  |
-   |   !    |  逻辑非  |     !true     | false |
-   |   ^    |   异或   |  true ^ true  | false |
-   |   &&   |  短路与  | true && false | false |
-   |  \|\|  |  短路或  | false\|\|true | true  |
+| 运算符 | 运算规则 |     例子      | 结果  |
+| :----: | :------: | :-----------: | :---: |
+|   &    |  逻辑与  | true & false  | false |
+|   \|   |  逻辑或  | true \| false | true  |
+|   !    |  逻辑非  |     !true     | false |
+|   ^    |   异或   |  true ^ true  | false |
+|   &&   |  短路与  | true && false | false |
+|  \|\|  |  短路或  | false\|\|true | true  |
 
 **演示逻辑运算符**
 ```java
 public class LogicallDemo{
-	// 演示 & | ! ^ && ||
+// 演示 & | ! ^ && ||
 	public static void main(String[] args){
 		boolean bo = false;
 		boolean b1 = true;
 		System.out.println( b0 & b1); //false
 		System.out.println( b0 | b1); //true
 		System.out.println( !b0);     //true
-
+		
 		System.out.println( b0 ^ b1);   //true
 		System.out.println( b0 && b1);  //false
 		System.out.println( b0 || b1);  //true
@@ -404,14 +405,14 @@ System.out.println( i5 ); //6
 对于扩展的赋值运算符，即使数据超出范围，最终也不会改变运算的结果类型
 ```
 
-   | 运算符 |  运算规则  |       例子        | 结果 |
-   | :----: | :--------: | :---------------: | :--: |
-   |   =    |    赋值    |    int i = 10;    |  10  |
-   |   +=   |  加后赋值  | int i = 10; i+=2; |  12  |
-   |   -=   |  减后赋值  | int i = 10;i-=2;  |  8   |
-   |   *=   |  乘后赋值  | int i = 10;i*=2;  |  20  |
-   |   /=   |  除后赋值  | int i = 10;i/=2;  |  5   |
-   |   %=   | 取余后赋值 | int i = 10;i%=3;  |  1   |
+| 运算符 |  运算规则  |       例子        | 结果 |
+| :----: | :--------: | :---------------: | :--: |
+|   =    |    赋值    |    int i = 10;    |  10  |
+|   +=   |  加后赋值  | int i = 10; i+=2; |  12  |
+|   -=   |  减后赋值  | int i = 10;i-=2;  |  8   |
+|   *=   |  乘后赋值  | int i = 10;i*=2;  |  20  |
+|   /=   |  除后赋值  | int i = 10;i/=2;  |  5   |
+|   %=   | 取余后赋值 | int i = 10;i%=3;  |  1   |
 
 
 
@@ -423,12 +424,12 @@ public class AssignmentDemo{
 		int a = 10;
 		int b = a + 20;
 		System.out,println(b); //30
-
+		
 		//扩展赋值运算符: +=  -=  *=  /=  %=
 		a += a;
 		System.out,println(a);//20
-        int c = 20;
-        System.out,ptintln(c -= 30); //-10
+		int c = 20;
+		System.out,ptintln(c -= 30); //-10
 	}
 }
 ```
@@ -472,11 +473,11 @@ public class AssignmentDemo{
 ```java
 public class AssignmentDemo{
 	public static void main(String[] args){
-	    //字符串的连接
+		//字符串的连接
 		String str1 = "我爱";
 		String str2 = "兔子";
 		System.out.println(str1 + str2); //我爱兔子
- 
+		
 		//char码表对应 ASCII码
 		char ch1 = 'a';
 		char ch2 = 'b';
